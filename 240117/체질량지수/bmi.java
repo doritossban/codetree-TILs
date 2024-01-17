@@ -8,7 +8,7 @@ public class Main {
         int c =   b*10000/(a*a);
        
         System.out.println(c);
-        if (c >= 25); System.out.print("Obesity");
+        if (c >= 25) System.out.print("Obesity");
 
     }
 }

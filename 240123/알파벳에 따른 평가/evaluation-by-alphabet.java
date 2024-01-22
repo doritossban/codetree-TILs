@@ -7,16 +7,19 @@ public class Main {
         if (a == 'S'){
             System.out.println("Superior");
         }
-        if (a == 'A'){
+        else if (a == 'A'){
             System.out.println("Excellent");
         }
-        if (a == 'B') {
+        else if (a == 'B') {
             System.out.println("Good");
         }
-        if (a == 'C') {System.out.println("Usually");
+        else if (a == 'C') {System.out.println("Usually");
         }
-        if ( a == 'D') {
+        else if ( a == 'D') {
             System.out.println("Effort");
+        }
+        else {
+            System.out.println("Failure");
         }
 
     }

@@ -14,9 +14,6 @@ public class Main {
         if( a1 < 19 && b1 < 19) {
         System.out.println('0');
         }
-        else {
-            System.out.println('1');
-        }
     }
     else {
         System.out.println('1');

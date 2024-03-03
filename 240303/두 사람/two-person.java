@@ -10,15 +10,18 @@ public class Main {
         int b1 = sc.nextInt();
         char b2 = sc.next().charAt(0);
 
-    if ( a2 == 'W' && b2 == 'W') {
-        System.out.println('0');
+   
+
+    if ( a1 >=19 && a2 == 'M') {
+        System.out.println('1');
     }
-    else if( a1 < 19 && b1 < 19) {
-        System.out.println('0');
-        } 
+
+    else if ( b1 >= 19 && b2 == 'M') {
+        System.out.println('1');
+    }
 
     else {
-        System.out.println('1');
+        System.out.println('0');
     }
 
     }

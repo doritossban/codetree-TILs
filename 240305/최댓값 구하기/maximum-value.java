@@ -8,13 +8,13 @@ public class Main {
         int c = sc.nextInt();
 
         if (a >= b && a >= c) {
-            System.out.print("a");
+            System.out.print(a);
         }
         else if ( b >= c ) {
-            System.out.print("b");
+            System.out.print(b);
         }
         else {
-            System.out.print("c");
+            System.out.print(c);
         }
     }
 

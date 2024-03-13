@@ -18,5 +18,17 @@ public class Main {
                 System.out.print(c);
             }
         }
+        else {//b>a
+            if (a > c) {
+                System.out.print(a);
+            }
+            else if ( c > b) {
+                System.out.print(b);
+            }
+            else {
+                System.out.print(c);
+            }
+        }
+        
     }
 }

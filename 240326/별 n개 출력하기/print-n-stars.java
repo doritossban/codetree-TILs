@@ -6,7 +6,7 @@ public class Main {
         int n = sc.nextInt();
         int i = 1;
 
-        while (i <= 50) {
+        while (i <= n) {
             System.out.println("*");
             i++;
         }

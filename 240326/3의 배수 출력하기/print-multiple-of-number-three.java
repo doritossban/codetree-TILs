@@ -5,10 +5,13 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        int i = 3;
+        int i = 1;
         while(i <= n){
-        System.out.print(i + " ");
-        i += 3;
+            if ( i % 3 == 0) {
+                System.out.print(i + " ");
+            }
+        
+        i += 1;
         }
     }
 }

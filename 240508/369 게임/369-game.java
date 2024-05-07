@@ -20,7 +20,7 @@ public class Main {
         }
 
         if ( i % 30 == 0) {
-            for ( j = 0; j == 9; j++) {
+            for (int j = 0; j == 9; j++) {
             System.out.print("0" + " ");
             }
         }

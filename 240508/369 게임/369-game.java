@@ -9,6 +9,12 @@ public class Main {
         int a = sc.nextInt();
 
         for (int i = 1; i <= a; i++) {
+            if ( i % 30 == 0) {
+            for (int j = 0; j == 9; j++) {
+            System.out.print("0" + " ");
+            }
+            i++;
+        }
         if ( i % 3 == 0 ) {
             System.out.print('0' + " ");
         }
@@ -16,12 +22,7 @@ public class Main {
             System.out.print('0' + " ");
         }
         else {
-            if ( i % 30 == 0) {
-            for (int j = 0; j == 9; j++) {
-            System.out.print("0" + " ");
-            }
-            i++;
-        }
+        
             System.out.print(i + " ");
         }
 

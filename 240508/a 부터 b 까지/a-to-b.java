@@ -6,17 +6,17 @@ public class Main {
 
         int a = sc.nextInt();
         int b = sc.nextInt();
-        System.out.print(a +  " ");
+       
 
-        while(a < b) { 
-            
+        while(a <= b) { 
+            System.out.print(a +  " ");
             if( a % 2 == 1) {
                 a = a * 2;
             }
             else {
                 a = a + 3;
             }
-            System.out.print(a +  " ");
+            
             
 
         }

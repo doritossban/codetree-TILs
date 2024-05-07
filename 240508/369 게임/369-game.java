@@ -23,6 +23,7 @@ public class Main {
             for (int j = 0; j == 9; j++) {
             System.out.print("0" + " ");
             }
+            i++;
         }
 
         }

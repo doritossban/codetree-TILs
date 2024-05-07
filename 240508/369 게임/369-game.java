@@ -16,15 +16,16 @@ public class Main {
             System.out.print('0' + " ");
         }
         else {
-            System.out.print(i + " ");
-        }
-
-        if ( i % 30 == 0) {
+            if ( i % 30 == 0) {
             for (int j = 0; j == 9; j++) {
             System.out.print("0" + " ");
             }
             i++;
         }
+            System.out.print(i + " ");
+        }
+
+        
 
         }
 

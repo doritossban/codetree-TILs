@@ -12,8 +12,9 @@ public class Main {
             if ( i % 30 == 0) {
             for (int j = 0; j == 9; j++) {
             System.out.print("0" + " ");
-            }
             i++;
+            }
+            
         }
         if ( i % 3 == 0 ) {
             System.out.print('0' + " ");

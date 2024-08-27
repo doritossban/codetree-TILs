@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int a, b;
-        int sum = 0; cnt = 0;
+        int sum = 0, cnt = 0;
         double avg;
 
         a = sc.nextInt();

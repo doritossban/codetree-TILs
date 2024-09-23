@@ -11,13 +11,18 @@ public class Main {
         int num = 0;
 
         while(true) {
-            n / i = num;  
+             
+             n = n/i;
+              if (n <= 1) break;
+             i++;
             //int 형 자료이기 때문에
            // System.out.print(n);
-            System.out.print(num);
-
+            
+           
+            
 
         }    
+        System.out.print(i);
         
     }
 }
